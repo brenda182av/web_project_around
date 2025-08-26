@@ -73,3 +73,28 @@
     margin-right: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .profile {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile__name {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 auto;
+  }
+
+  .profile__about {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
